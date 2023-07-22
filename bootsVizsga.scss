@@ -1,0 +1,52 @@
+.jumbotron {
+    height: 400px;
+    background-image: url(https://img.freepik.com/free-vector/web-developers-courses-computer-programming-web-design-script-coding-study-computer-science-student-learning-interface-structure-components_335657-2542.jpg?size=626&ext=jpg&uid=R77385274&ga=GA1.2.165408071.1661171255&semt=ais);
+    background-size: cover;
+  
+    p, h1 {
+      color: black;
+    }
+  
+    .logo {
+      width: 60px;
+      height: 60px;
+      background-color: aqua;
+      position: sticky;
+      top: 0;
+      right: 6rem;
+    }
+  
+    button {
+      width: 120px;
+      height: 70px;
+      background-color: black;
+      color: white;
+    }
+  }
+  
+.navbar{
+    background-color: black;
+    color: white;
+    
+    position:sticky;
+    top: 0;
+    z-index: 5;
+    box-shadow: 0px 16px 25px black;
+}
+/* Custom CSS to change the color of the navbar icon */
+.cards-div{
+    text-transform: uppercase;
+
+h5{
+    font-weight: bold;
+}    
+}
+
+.newsletter{
+    
+    color: white;
+}
+.cardtext{
+
+  font-size: 2rem;  
+}
